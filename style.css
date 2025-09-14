@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f3f4f6;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #0d6efd;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel button {
+  background: #0d6efd;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.carousel button:hover {
+  background: #084298;
+}
+
+/* Joke Button */
+#joke-btn {
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#joke-btn:hover {
+  background: #1e7e34;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  font-size: 14px;
+}
+
+.heart {
+  color: red;
+}
